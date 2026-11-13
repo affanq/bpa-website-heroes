@@ -3,15 +3,15 @@
 :root {
   --color-ink: #263638;
   --color-muted: #5d6b69;
-  --color-primary: #4ed3cf;
+  --color-primary: #173b3a;
   --color-primary-dark: #102c2c;
   --color-gold: #e7a45b;
   --color-paper: #f5f0e7;
-  --color-white: #16140b;
-  --color-terra: #69200d;
+  --color-white: #fffefa;
+  --color-terra: #b65f48;
   --color-line: #dedbd2;
   --font-heading: Georgia, "Times New Roman", serif;
-  --font-body: Comic Sans MS, Comic Sans, cursive;
+  --font-body: Arial, Helvetica, sans-serif;
   --content-width: 1120px;
   --radius-card: 18px;
   --shadow-soft: 0 14px 38px rgba(23, 59, 58, .09);
@@ -63,7 +63,6 @@ p { margin-top: 0; }
 .section-heading p:last-child { color: var(--color-muted); }
 .card-grid { display: grid; gap: 20px; }
 .card-grid.three { grid-template-columns: repeat(3, 1fr); }
-.card-grid.four { grid-template-columns: repeat(4, 1fr); }
 .feature-card, .impact-card { padding: 30px; border: 1px solid var(--color-line); border-radius: var(--radius-card); background: var(--color-white); box-shadow: var(--shadow-soft); }
 .feature-card p, .impact-card p { color: var(--color-muted); }
 .icon-disc { display: grid; place-items: center; width: 48px; height: 48px; margin-bottom: 22px; border-radius: 50%; background: var(--color-paper); color: var(--color-terra); font-size: 1.4rem; font-weight: 800; }

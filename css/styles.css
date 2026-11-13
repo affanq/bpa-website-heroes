@@ -80,7 +80,7 @@ p { margin-top: 0; }
 .copyright { flex-basis: 100%; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.16); }
 .page-hero { padding: 74px 0 65px; background: var(--color-paper); }
 .page-hero h1 { font-size: clamp(2.7rem, 5vw, 4.2rem); }
-.profile-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
+.profile-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
 .profile-card { overflow: hidden; border: 1px solid var(--color-line); border-radius: var(--radius-card); box-shadow: var(--shadow-soft); }
 .image-placeholder { min-height: 240px; display: grid; place-items: center; padding: 20px; background: linear-gradient(135deg, #d9e2d9, #f0d8bd); color: var(--color-primary); text-align: center; font-weight: 800; }
 .profile-body { padding: 27px; }

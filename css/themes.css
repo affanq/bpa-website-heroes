@@ -1,0 +1,114 @@
+/* Theme palettes. Evergreen is the original look; the other options replace its design tokens. */
+html[data-theme="ocean"] {
+  --color-ink: #203443;
+  --color-muted: #526b79;
+  --color-primary: #14566a;
+  --color-primary-dark: #0c3e50;
+  --color-gold: #f0bd62;
+  --color-paper: #eaf3f5;
+  --color-white: #fbfefe;
+  --color-terra: #bd674d;
+  --color-line: #d3e1e5;
+  --font-heading: "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Trebuchet MS", Arial, sans-serif;
+  --radius-card: 12px;
+  --shadow-soft: 0 14px 38px rgba(20, 86, 106, .12);
+  --color-art: #c9e2e8;
+  --color-footer: #0c3e50;
+  --color-quote: #e4eff1;
+  --color-image-start: #c9e2e8;
+  --color-image-end: #f0d7bd;
+}
+
+html[data-theme="citrus"] {
+  --color-ink: #393326;
+  --color-muted: #6c604c;
+  --color-primary: #526b35;
+  --color-primary-dark: #3a4d25;
+  --color-gold: #e5a638;
+  --color-paper: #f5f0d9;
+  --color-white: #fffef8;
+  --color-terra: #b75b3e;
+  --color-line: #e3dcc1;
+  --font-heading: "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Trebuchet MS", Arial, sans-serif;
+  --radius-card: 26px;
+  --shadow-soft: 0 14px 38px rgba(82, 107, 53, .12);
+  --color-art: #e8e4bd;
+  --color-footer: #3a4d25;
+  --color-quote: #eeedda;
+  --color-image-start: #e8e4bd;
+  --color-image-end: #f2d1a5;
+}
+
+html[data-theme="twilight"] {
+  --color-ink: #302d40;
+  --color-muted: #666176;
+  --color-primary: #51416f;
+  --color-primary-dark: #392d51;
+  --color-gold: #e8b477;
+  --color-paper: #f0edf5;
+  --color-white: #fffefe;
+  --color-terra: #a64e64;
+  --color-line: #ddd7e7;
+  --font-heading: "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: Arial, Helvetica, sans-serif;
+  --radius-card: 10px;
+  --shadow-soft: 0 14px 38px rgba(81, 65, 111, .13);
+  --color-art: #d9d2e8;
+  --color-footer: #392d51;
+  --color-quote: #eae6f0;
+  --color-image-start: #d9d2e8;
+  --color-image-end: #efd4d0;
+}
+
+:root {
+  --color-art: #d9e2d9;
+  --color-footer: #102c2c;
+  --color-quote: #e8eee8;
+  --color-image-start: #d9e2d9;
+  --color-image-end: #f0d8bd;
+}
+
+.hero-art { background: var(--color-art); }
+.site-footer { background: var(--color-footer); }
+.quote-band { background: var(--color-quote); }
+.image-placeholder { background: linear-gradient(135deg, var(--color-image-start), var(--color-image-end)); }
+
+.theme-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-muted);
+  font-size: .88rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.theme-picker select {
+  max-width: 150px;
+  min-height: 40px;
+  padding: 7px 30px 7px 10px;
+  border: 1px solid var(--color-line);
+  border-radius: 9px;
+  background: var(--color-white);
+  color: var(--color-ink);
+  font: inherit;
+  cursor: pointer;
+}
+.theme-picker select:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+@media (max-width: 760px) {
+  .theme-picker {
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 4px 0;
+  }
+  .theme-picker select {
+    flex: 1;
+    max-width: none;
+    margin-left: 12px;
+  }
+}

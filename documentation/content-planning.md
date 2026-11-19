@@ -27,6 +27,17 @@
 - Claims that need verification:
 - Works Cited entry:
 
+## Questions for Interview
+- Tell us about yourself and your journey. What experiences, people, or values have shaped the person you are today?
+- What motivates you in the things you do, and what inspires you to keep pursuing what matters to you?
+- What is something you've done, experienced, or been a part of that holds a particularly special place in your heart? Why?
+- What is one experience that changed your perspective or significantly influenced the way you see the world?
+- What are some challenges you've encountered throughout your journey, and how have you navigated them?
+- What qualities, skills, or personal traits do you think have shaped the way you interact with and influence the people around you?
+- If time, money, and resources were not limitations, what would you love to see happen in your community or the world?
+- What message or advice would you like to leave with future generations?
+
+
 ## Evidence and impact
 For every statistic or factual claim:
 - Claim:

@@ -7,6 +7,15 @@
 - Subpage 3:
 - Optional additional page(s):
 
+## People for Interview
+- Vijay Shah (Friday after school) 
+- Brinda Shah (Yet to schedule)
+- Sabana (Yet to schedule)
+- Ms Shelly (Friday after school)
+- Kimberly Shaw, a Muslim Revert commercial real estate agent (Yet to schedule)
+- Yassin Barry, an executive banker who now holds a seat on the board of directors in the Vista Bank Group (Yet to schedule)
+- Musa Jagne, who is a managing director and one of the founders of Hardin & Associates Consulting (Yet to schedule) 
+
 ## For each featured person
 - Name and preferred form of identification:
 - What they do:
